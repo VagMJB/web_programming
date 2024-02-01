@@ -1,0 +1,60 @@
+h1{
+    /* color: red; */
+    text-align: center;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 2px;
+}
+
+ol ul li {
+    color: blue;
+}
+
+button{
+    background-color: red;
+    padding: 5px;
+    border: none;
+    left: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: green;
+}
+
+@media(min-width: 600px){
+    body {
+        background-color: red;
+    }
+}
+
+@media(max-width: 599px){
+    body{
+        background-color: blue;
+    }
+    
+    #button-1:hover{
+        background-color: brown;
+    }
+
+
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container > div{
+    background-color: green;
+    font-size: 12px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
